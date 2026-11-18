@@ -21,7 +21,8 @@ public class CorreoListener {
     private static final Logger logger =
             LoggerFactory.getLogger(CorreoListener.class);
 
-    private static final String NOTIFICATION_SERVICE_BASE_URL = "http://cuidadoseguro-notif-1042718212.us-east-1.elb.amazonaws.com:8089";
+    //private static final String NOTIFICATION_SERVICE_BASE_URL = "http://cuidadoseguro-notif-1042718212.us-east-1.elb.amazonaws.com:8089";
+    private static final String NOTIFICATION_SERVICE_BASE_URL = "http://localhost:8089";
 
     private final Inbox bandeja;
     private final RestClient notificationClient;
